@@ -1,0 +1,58 @@
+body,
+html {
+	background-color: #f2f2f2;
+	background-image: url("../public/images/cloudy.svg");
+	font-family: "Poppins";
+	height: 100%;
+}
+
+.EditContainer {
+	display: flex;
+	align-items: center;
+}
+
+.EditElement {
+	flex-basis: 20%;
+	font-family: "Poppins";
+}
+
+#topContainer {
+	font-size: 30px;
+}
+.EditPageButtons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 3%;
+}
+
+.EditPageButtons Button {
+	flex-basis: 40%;
+	padding: 2%;
+	border-radius: 15px;
+}
+
+.AppContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.HomePageHeader {
+	transform: translateY(0px);
+	animation: float 8s ease-out infinite;
+	font-family: "Poppins";
+	text-align: center;
+	font-size: 5em;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
