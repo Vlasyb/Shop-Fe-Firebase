@@ -13,6 +13,7 @@ import {
 	Autocomplete,
 	TextField,
 } from "@mui/material"
+// ---------
 
 export const BoughtBy = ({ purchace }) => {
 	const dispatch = useDispatch()
